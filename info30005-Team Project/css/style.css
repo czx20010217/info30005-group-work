@@ -1,0 +1,348 @@
+/* body and all style */
+body{
+    text-align: center;
+    margin: 1;
+    color: #BBDEF0;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    padding: 100px 0px;
+    background-attachment: fixed,  scroll;
+}
+
+header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    position: relative;
+    text-shadow: 0 3px 3px #44aada;
+}
+
+header h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #1a1d1f;
+    background-color: #ffffff;
+    font-size: 45px;
+    font-weight:bold;
+    line-height: 40px;
+    position:relative;
+}
+
+header{
+    background-image: url(doctor.jpg);
+    background-size:auto;
+    border-radius: 10px;
+    padding: 180px 0px;
+    background-attachment: fixed,  scroll;
+}
+
+/*what is diabetes*/
+nav{
+    text-align: center;
+}
+
+nav h2{
+    font-family:'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 35px;
+    font-weight:bold;
+    line-height: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+nav h2:before,nav h2:after {
+    content: "";
+    flex: 1  1;
+    border-bottom: 5px solid #31C6AC;
+    margin: auto;
+}
+
+
+nav p{
+    background-color: #6AABDB;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px 0px;
+    background-attachment: fixed,  scroll;
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+/*dangerous of diabetes*/
+#dangerous h2{
+    font-family:'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 35px;
+    font-weight:bold;
+    line-height: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#dangerous h2:before,#dangerous h2:after {
+    content: "";
+    flex: 1  1;
+    border-bottom: 5px solid #31C6AC;
+    margin: auto;
+}
+
+#dangerous p{
+    background-color:#6AABDB;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px 0px;
+    background-attachment: fixed,  scroll;
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 40px;
+    text-align:center;
+    text-shadow: #000000;
+}
+
+#dangerous iframe{ 
+    position: relative;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+#dangerous img{
+    height: 80%;
+    width: 100%;
+    padding: 0px;
+    position:relative;
+}
+
+/*how to cure */
+#how h2{
+    font-family:'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 35px;
+    font-weight:bold;
+    line-height: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#how h2:before,#how h2:after {
+content: "";
+flex: 1  1;
+border-bottom: 5px solid #31C6AC;
+margin: auto;
+}
+
+#how p{
+    background-color: #6AABDB;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px 0px;
+    background-attachment: fixed,  scroll;
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 40px;
+    text-align:center;
+    text-shadow: #000000;
+}
+
+#how img.cure{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+#how img.curefood{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+/*useful website list*/
+#usefulList h2{
+    font-family:'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 35px;
+    font-weight:bold;
+    line-height: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+/* add two line for h2*/
+#usefulList h2:before,#usefulList h2:after {
+content: "";
+flex: 1  1;
+border-bottom: 5px solid #31C6AC;
+margin: auto;
+}
+
+#usefulList div{
+    background-color: #6AABDB;
+    background-size: 100%;
+    background-attachment:scroll;
+    padding: 6px 0px;
+}
+
+#usefulList p{
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px 0px;
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 40px;
+    text-align:center;
+ 
+}
+
+#usefulList li{
+    border: 4px solid #44aada;
+    border-radius: 5px;
+    border-style: outset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0px;
+    display:inline-block;
+    line-height: 40px;
+    text-align: center;
+
+}
+/*website overview*/
+#overview h2{
+    font-family:'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 35px;
+    font-weight:bold;
+    line-height: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+#overview h2:before,#overview h2:after {
+    content: "";
+    flex: 1  1;
+    border-bottom: 5px solid #31C6AC;
+    margin: auto;
+}
+
+#overview p{
+    background-color: #6AABDB;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px 0px;
+    background-attachment: fixed,  scroll;
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 40px;
+    text-align:center;
+    text-shadow: #000000;
+}
+
+/*website builder*/
+#builder h2{
+    font-family:'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 35px;
+    font-weight:bold;
+    line-height: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+#builder h2:before,#builder h2:after {
+    content: "";
+    flex: 1  1;
+    border-bottom: 5px solid #31C6AC;
+    margin: auto;
+}
+
+#builder table{
+    border: 5px  solid #6AABDB;
+    border-style:groove;
+    border-radius: 10px;
+    padding: 40px 40px;
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 40px;
+    text-align:center;
+}
+
+#builder th{
+    border: 3px outset #6AABDB;
+    
+}
+
+#builder td{
+    border: 3px  outset #6AABDB;
+    
+}
+
+/* footer */
+footer {
+    border-top: 15px solid #0a3757;
+    padding: 25px 0px;
+}
+
+footer h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    color:#000000;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 0px;
+}
+
+footer p{
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 40px;
+    text-align:center;
+}
+
+footer a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid #6DF5DE;
+    border-radius: 4px;
+    color: #000000;
+}
+
+footer button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    border: 3px solid #6DF5DE;
+    border-radius: 4px;
+    color: #000000;
+}
