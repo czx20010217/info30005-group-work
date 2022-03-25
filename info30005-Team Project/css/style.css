@@ -291,7 +291,9 @@ nav p{
 }
 
 #builder td{
+    text-align:start ;
     border: 3px solid #6AABDB;
+
     
 }
 
