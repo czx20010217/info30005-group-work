@@ -23,10 +23,21 @@ header h1{
 
 header{
     background-color: #4770AE;
-    background-size:auto;
-    padding: 10px 0px;
-    background-attachment: fixed,  scroll;
+    background-size: auto;
+    padding: 10px 10px;
 }
+
+header p{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    bottom: 45px;
+    right: 120px; 
+    text-decoration: none;
+}
+
+
 
 /*what is diabetes*/
 nav{
@@ -341,7 +352,7 @@ footer button{
     font-size: 20px;
     font-weight: bold;
     padding: 10px 25px;
-    border: 3px solid #6DF5DE;
+    border: 3px solid #6AABDD;
     background-color: #6AABDD;
     color: #ffffff;
     position: relative;
