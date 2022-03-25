@@ -284,17 +284,14 @@ nav p{
     color: #38423F;
     font-size: 20px;
     font-weight:bold;
-    line-height: 40px;
-    text-align: center;    
+    line-height: 40px;   
     padding-left: 35px;
     padding-bottom: 40px;
 }
 
 #builder td{
-    text-align:start ;
+    text-align: start;
     border: 3px solid #6AABDB;
-
-    
 }
 
 /* footer */
