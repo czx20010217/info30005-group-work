@@ -316,7 +316,7 @@ footer p{
     font-size: 18px;
     font-weight:bold;
     line-height: 40px;
-    text-align:center;
+    text-align: start;
 ;
 }
 
@@ -342,7 +342,8 @@ footer button{
     font-weight: bold;
     padding: 10px 25px;
     border: 3px solid #6DF5DE;
-    border-radius: 4px;
     background-color: #6AABDD;
     color: #ffffff;
+    position: relative;
+
 }
