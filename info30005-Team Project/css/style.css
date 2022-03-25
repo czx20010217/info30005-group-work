@@ -17,17 +17,9 @@ header h1{
     font-size: 20px;
     line-height: 10px;
     position: relative;
+    left:40px;
 }
 
-header h2{
-    font-family: 'Quattrocento Sans';
-    color: #1a1d1f;
-    background-color: #ffffff;
-    font-size: 45px;
-    font-weight:bold;
-    line-height: 40px;
-    position:relative;
-}
 
 header{
     background-color: #4770AE;
@@ -44,13 +36,13 @@ nav{
 nav h1{
     font-family: 'Roboto';
     font-size: 30px;
-    color: #000000;
+    color: #424C49;
     font-weight: bold;
 }
 
 nav h2{
     font-family:'Quattrocento Sans';
-    color: #000000;
+    color: #383D42;
     font-size: 24px;
     font-weight:bold;
     line-height: 40px;
@@ -75,7 +67,7 @@ nav p{
     padding: 20px 0px;
     background-attachment: fixed,  scroll;
     font-family: 'Quattrocento Sans';
-    color: #000000;
+    color: #383D42;
     font-size: 18px;
     font-weight:bold;
     line-height: 40px;
@@ -94,7 +86,7 @@ nav p{
     background-color: #ffffff;
     padding-bottom: 20px;
     font-family:'Quattrocento Sans';
-    color: #000000;
+    color: #383D42;
     font-size: 24px;
     font-weight:bold;
     line-height: 40px;
@@ -116,12 +108,11 @@ nav p{
 #dangerous p{
     background-attachment: fixed,  scroll;
     font-family: 'Quattrocento Sans';
-    color: #000000;
+    color: #383D42;
     font-size: 18px;
     font-weight:bold;
     line-height: 40px;
     text-align:start;
-    text-shadow: #000000;
 }
 
 #dangerous iframe{ 
@@ -169,12 +160,12 @@ nav p{
 
 #how p{
     font-family: 'Quattrocento Sans';
-    color: #000000;
+    color: #383D42;
     font-size: 18px;
     font-weight:bold;
     line-height: 30px;
     text-align:start;
-    text-shadow: #000000;
+    text-shadow: #383D42;
 }
 
 #how img.cure{
@@ -192,7 +183,7 @@ nav p{
 /*useful website list*/
 #usefulList h2{
     font-family:'Quattrocento Sans';
-    color: #000000;
+    color: #383D42;
     font-size: 24px;
     font-weight:bold;
     line-height: 40px;
@@ -214,7 +205,7 @@ nav p{
 #usefulList p{
     padding: 5px 0px;
     font-family: 'Quattrocento Sans';
-    color: #000000;
+    color: #383D42;
     font-size: 22px;
     font-weight:bold;
     line-height: 20px;
@@ -236,7 +227,7 @@ nav p{
 /*website overview*/
 #overview h2{
     font-family:'Quattrocento Sans';
-    color: #000000;
+    color: #424C49;
     font-size: 24px;
     font-weight:bold;
     line-height: 40px;
@@ -260,18 +251,17 @@ nav p{
     padding: 20px 0px;
     background-attachment: fixed,  scroll;
     font-family: 'Quattrocento Sans';
-    color: #000000;
+    color: #383D42;
     font-size: 18px;
     font-weight:bold;
     line-height: 40px;
     text-align:start;
-    text-shadow: #000000;
 }
 
 /*website builder*/
 #builder h2{
     font-family:'Quattrocento Sans';
-    color: #000000;
+    color: #424C49;
     font-size: 24px;
     font-weight:bold;
     line-height: 40px;
@@ -291,7 +281,7 @@ nav p{
 
 #builder table{
     font-family: 'Roboto';
-    color: #000000;
+    color: #38423F;
     font-size: 20px;
     font-weight:bold;
     line-height: 40px;
@@ -315,7 +305,7 @@ footer {
 footer h2 {
     font-family:'Quattrocento Sans';
     font-size: 24px;
-    color:#000000;
+    color:#38423F;
     font-weight: bold;
     line-height: 40px;
     margin: 0px;
@@ -323,7 +313,7 @@ footer h2 {
 
 footer p{
     font-family: 'Quattrocento Sans';
-    color: #000000;
+    color: #383D42;
     font-size: 18px;
     font-weight:bold;
     line-height: 40px;
