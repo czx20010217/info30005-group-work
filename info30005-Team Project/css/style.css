@@ -8,22 +8,19 @@ body{
 main {
     background-color: rgb(255, 255, 255);
     background-size: cover;
-    padding: 100px 0px;
     background-attachment: fixed,  scroll;
 }
 
 header h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000000;
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 50px;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 20px;
+    line-height: 10px;
     position: relative;
-    text-shadow: 0 3px 3px #44aada;
 }
 
 header h2{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Quattrocento Sans';
     color: #1a1d1f;
     background-color: #ffffff;
     font-size: 45px;
@@ -33,10 +30,9 @@ header h2{
 }
 
 header{
-    background-image: url(doctor.jpg);
+    background-color: #4770AE;
     background-size:auto;
-    border-radius: 10px;
-    padding: 180px 0px;
+    padding: 10px 0px;
     background-attachment: fixed,  scroll;
 }
 
@@ -45,10 +41,17 @@ nav{
     text-align: center;
 }
 
-nav h2{
-    font-family:'Times New Roman', Times, serif;
+nav h1{
+    font-family: 'Roboto';
+    font-size: 30px;
     color: #000000;
-    font-size: 35px;
+    font-weight: bold;
+}
+
+nav h2{
+    font-family:'Quattrocento Sans';
+    color: #000000;
+    font-size: 24px;
     font-weight:bold;
     line-height: 40px;
     position: relative;
@@ -59,31 +62,40 @@ nav h2{
 nav h2:before,nav h2:after {
     content: "";
     flex: 1  1;
-    border-bottom: 5px solid #31C6AC;
+    border-bottom: 5px solid #13899F;
     margin: auto;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 
 nav p{
-    background-color: #6AABDB;
+    background-color: #DCEEFF;
     background-size: cover;
-    border-radius: 10px;
     padding: 20px 0px;
     background-attachment: fixed,  scroll;
-    font-family: sans-serif;
+    font-family: 'Quattrocento Sans';
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     font-weight:bold;
     line-height: 40px;
-    text-align: center;
+    text-align:start;
 }
 
 
 /*dangerous of diabetes*/
+#dangerous {
+    background-color: #DCEEFF;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
 #dangerous h2{
-    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+    font-family:'Quattrocento Sans';
     color: #000000;
-    font-size: 35px;
+    font-size: 24px;
     font-weight:bold;
     line-height: 40px;
     position: relative;
@@ -95,43 +107,49 @@ nav p{
 #dangerous h2:before,#dangerous h2:after {
     content: "";
     flex: 1  1;
-    border-bottom: 5px solid #31C6AC;
+    border-bottom: 5px solid #13899F;
     margin: auto;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 #dangerous p{
-    background-color:#6AABDB;
-    background-size: cover;
-    border-radius: 10px;
-    padding: 20px 0px;
     background-attachment: fixed,  scroll;
-    font-family: sans-serif;
+    font-family: 'Quattrocento Sans';
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     font-weight:bold;
     line-height: 40px;
-    text-align:center;
+    text-align:start;
     text-shadow: #000000;
 }
 
 #dangerous iframe{ 
     position: relative;
-    padding: 0px;
     height: 100%;
     width: 100%;
+
 }
 #dangerous img{
     height: 80%;
     width: 100%;
-    padding: 0px;
     position:relative;
 }
 
 /*how to cure */
+#how {
+    background-color: #DCEEFF;
+    background-size:cover;
+    padding-bottom: 20px;
+    background-attachment: fixed,  scroll;
+}
 #how h2{
-    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    background-size: cover;
+    padding-bottom: 20px;
+    font-family:'Quattrocento Sans';
     color: #000000;
-    font-size: 35px;
+    font-size: 24px;
     font-weight:bold;
     line-height: 40px;
     position: relative;
@@ -141,46 +159,41 @@ nav p{
 
 
 #how h2:before,#how h2:after {
-content: "";
-flex: 1  1;
-border-bottom: 5px solid #31C6AC;
-margin: auto;
+    content: "";
+    flex: 1  1;
+    border-bottom: 5px solid #13899F;
+    margin: auto;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 #how p{
-    background-color: #6AABDB;
-    background-size: cover;
-    border-radius: 10px;
-    padding: 20px 0px;
-    background-attachment: fixed,  scroll;
-    font-family: sans-serif;
+    font-family: 'Quattrocento Sans';
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     font-weight:bold;
-    line-height: 40px;
-    text-align:center;
+    line-height: 30px;
+    text-align:start;
     text-shadow: #000000;
 }
 
 #how img.cure{
     width: 100%;
     height: 100%;
-    padding: 10px;
     position: relative;
 }
 
 #how img.curefood{
     width: 100%;
     height: 100%;
-    padding: 10px;
     position: relative;
 }
 
 /*useful website list*/
 #usefulList h2{
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Quattrocento Sans';
     color: #000000;
-    font-size: 35px;
+    font-size: 24px;
     font-weight:bold;
     line-height: 40px;
     position: relative;
@@ -189,50 +202,42 @@ margin: auto;
 }
 /* add two line for h2*/
 #usefulList h2:before,#usefulList h2:after {
-content: "";
-flex: 1  1;
-border-bottom: 5px solid #31C6AC;
-margin: auto;
+    content: "";
+    flex: 1  1;
+    border-bottom: 5px solid #13899F;
+    margin: auto;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
-#usefulList div{
-    background-color: #6AABDB;
-    background-size: 100%;
-    background-attachment:scroll;
-    padding: 6px 0px;
-}
 
 #usefulList p{
-    border: 3px solid black;
-    border-radius: 20px;
     padding: 5px 0px;
-    font-family: sans-serif;
+    font-family: 'Quattrocento Sans';
     color: #000000;
-    font-size: 20px;
+    font-size: 22px;
     font-weight:bold;
-    line-height: 40px;
+    line-height: 20px;
     text-align:center;
  
 }
 
 #usefulList li{
-    border: 4px solid #44aada;
-    border-radius: 5px;
-    border-style: outset;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: 'Quattrocento Sans';
+    font-size: 18px;
     font-weight: bold;
-    padding: 5px 0px;
     display:inline-block;
-    line-height: 40px;
-    text-align: center;
+    line-height: 20px;
+    position:relative;
+    color: #4770AE;
+    padding: 20px 0px;
 
 }
 /*website overview*/
 #overview h2{
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Quattrocento Sans';
     color: #000000;
-    font-size: 35px;
+    font-size: 24px;
     font-weight:bold;
     line-height: 40px;
     position: relative;
@@ -243,30 +248,31 @@ margin: auto;
 #overview h2:before,#overview h2:after {
     content: "";
     flex: 1  1;
-    border-bottom: 5px solid #31C6AC;
+    border-bottom: 5px solid #13899F;
     margin: auto;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 #overview p{
-    background-color: #6AABDB;
+    background-color: #DCEEFF;
     background-size: cover;
-    border-radius: 10px;
     padding: 20px 0px;
     background-attachment: fixed,  scroll;
-    font-family: sans-serif;
+    font-family: 'Quattrocento Sans';
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     font-weight:bold;
     line-height: 40px;
-    text-align:center;
+    text-align:start;
     text-shadow: #000000;
 }
 
 /*website builder*/
 #builder h2{
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Quattrocento Sans';
     color: #000000;
-    font-size: 35px;
+    font-size: 24px;
     font-weight:bold;
     line-height: 40px;
     position: relative;
@@ -277,42 +283,38 @@ margin: auto;
 #builder h2:before,#builder h2:after {
     content: "";
     flex: 1  1;
-    border-bottom: 5px solid #31C6AC;
+    border-bottom: 5px solid #13899F;
     margin: auto;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 #builder table{
-    border: 5px  solid #6AABDB;
-    border-style:groove;
-    border-radius: 10px;
-    padding: 40px 40px;
-    font-family: sans-serif;
+    font-family: 'Roboto';
     color: #000000;
     font-size: 20px;
     font-weight:bold;
     line-height: 40px;
-    text-align:center;
-}
-
-#builder th{
-    border: 3px outset #6AABDB;
-    
+    text-align: center;    
+    padding-left: 35px;
+    padding-bottom: 40px;
 }
 
 #builder td{
-    border: 3px  outset #6AABDB;
+    border: 3px solid #6AABDB;
     
 }
 
 /* footer */
 footer {
-    border-top: 15px solid #0a3757;
-    padding: 25px 0px;
+    border-top: 10px solid #E5E5E5;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer h2 {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-family:'Quattrocento Sans';
+    font-size: 24px;
     color:#000000;
     font-weight: bold;
     line-height: 40px;
@@ -320,29 +322,38 @@ footer h2 {
 }
 
 footer p{
-    font-family: sans-serif;
+    font-family: 'Quattrocento Sans';
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     font-weight:bold;
     line-height: 40px;
     text-align:center;
+;
 }
 
 footer a {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-family: 'Roboto';
+    font-size: 22px;
     font-weight: bold;
-    border: 3px solid #6DF5DE;
-    border-radius: 4px;
-    color: #000000;
+    color: #4770AE;
 }
 
-footer button{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+footer h3{
+    font-family: 'Roboto';
+    font-size: 20px;
     font-weight: bold;
     padding: 5px;
+    color: #424C49;
+}
+
+
+footer button{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 25px;
     border: 3px solid #6DF5DE;
     border-radius: 4px;
-    color: #000000;
+    background-color: #6AABDD;
+    color: #ffffff;
 }
